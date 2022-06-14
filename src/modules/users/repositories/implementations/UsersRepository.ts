@@ -50,6 +50,10 @@ class UsersRepository implements IUsersRepository {
   list(): User[] {
     return this.users;
   }
+
+  delete(id: string): void {
+    this.users = this.users.filter((user) => user.id !== id);
+  }
 }
 
 export { UsersRepository };
