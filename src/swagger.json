@@ -1,0 +1,23 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Users Manager Docs",
+    "description": "A documentation for our users API, specifying the request and response formats for each route.",
+    "version": "1.0.0",
+    "contact": {
+      "email": "m.cardoso@faker.br"
+    }
+  },
+  "paths": {
+    "/users": {
+      "get": {
+        "summary": "Lists all users registered in our API. This is an admin-only route.",
+        "description": "Lists all users registered in our API. This is an admin-only route."
+      },
+      "post": {
+        "summary": "Creates a new user from name and email.",
+        "description": "Creates a new user from name and email."
+      }
+    }
+  }
+}
